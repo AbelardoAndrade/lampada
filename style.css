@@ -1,0 +1,217 @@
+body {
+  max-width: 60rem;
+  align-items: center;
+  margin-inline: auto;
+  margin-top: 0.3rem;
+}
+
+#logo {
+  width: 5rem;
+  margin-left: 4rem;
+}
+
+.text-logo {
+  font-family: "Questrial", sans-serif;
+  margin-left: 0.5rem;
+  font-weight: 400;
+  text-shadow: (1px 1px 4px gray);
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: rgba(255, 255, 252, 0.63);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 252, 0.644) 0%,
+      rgba(244, 185, 7, 0.274) 61%
+    );
+  
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+#menu ul {
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+
+    box-shadow: rgba(0, 0, 0.35, 0.35) 0px 5px 12px;
+
+    background: rgba(255, 255, 252, 0.863);
+    background: radial-gradient(
+      circle,
+      rgba(255, 218, 52, 0.644) 0%,
+      rgba(244, 185, 7, 0.493) 61%
+    );
+  
+   
+    padding: 0.7rem;
+
+}
+
+a, li {
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+   text-decoration: none; 
+   font-family: "Questrial", sans-serif;
+   color: black;
+}
+
+li:hover {
+    color: white;
+    text-shadow: 2px 1px 2px black;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-top: -0.5rem;
+  background: rgba(255, 255, 252, 0.63);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 252, 0.644) 0%,
+    rgba(244, 185, 7, 0.274) 61%
+  );
+
+  padding-bottom: 0.5rem;
+}
+
+#lamp:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  background: rgba(255, 255, 252, 0.63);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 252, 0.644) 0%,
+    rgba(244, 185, 7, 0.274) 61%
+  );
+  
+}
+
+.sub {
+  padding: 1.3rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 2rem;
+}
+
+.paragraph {
+    font-family: "Questrial", sans-serif;
+    
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  max-width: 13rem;
+  gap: 1rem;
+ 
+}
+
+#turnOn {
+  border: none;
+  margin-top: 1.3rem;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px gray;
+  padding: 0.5rem;
+border-radius: 0.4rem;
+background-color: white;
+
+}
+#turnOff {
+  border: none;
+  margin-top: 1.3rem;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px gray;
+padding: 0.5rem;
+border-radius: 0.4rem;
+background-color: white;
+}
+
+#replace {
+  border: none;
+  margin-top: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px gray;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: white;
+}
+
+#turnOn:hover {
+  background-color: rgba(236, 182, 6, 0.452);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+    text-shadow: 2px 1px 2px black;
+}
+
+#turnOn:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+#turnOff:hover {
+  background-color: rgba(235, 27, 0, 0.685);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+    text-shadow: 2px 1px 2px black;
+}
+
+#turnOff:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+#replace:hover {
+  background-color: rgba(56, 146, 4, 0.671);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+    text-shadow: 2px 1px 2px black;
+}
+
+#replace:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  max-width: 60rem;
+  margin-top: 1rem;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  background: rgba(255, 255, 252, 0.63);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 252, 0.644) 0%,
+    rgba(244, 185, 7, 0.274) 61%
+  );
+
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
